@@ -10,6 +10,7 @@ function Navbar() {
 
   const handleClick = () => {
     setClick(!click);
+    console.log("clicking");
   };
 
   const closeMobileMenu = () => {
@@ -25,7 +26,7 @@ function Navbar() {
   };
 
   const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
+    if (window.innerWidth < 700) {
       setDropdown(false);
     } else {
       setDropdown(false);
@@ -34,9 +35,12 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <Link to="/" className="navbar-logo">
-          Epic <i className="fab fa-firstdraft" />
-        </Link>
+        <span className="nav-title">
+          <Link to="/" className="navbar-logo">
+            My portfolio
+          </Link>
+        </span>
+
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
@@ -55,31 +59,20 @@ function Navbar() {
               About
             </Link>
           </li>
-          <li
-            className="nav-item"
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
-          >
+          <li className="nav-item">
             <Link
               to="/services"
               className="nav-links"
               onClick={closeMobileMenu}
+              onMouseEnter={onMouseEnter}
+              onMouseLeave={onMouseLeave}
             >
               Contact Me <i className="fas fa-caret-down" />
             </Link>
             {dropdown && <Dropdown />}
           </li>
 
-          <li className="nav-item">
-            <Link
-              to="/contact-us"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Contact Us
-            </Link>
-          </li>
-          <li className="nav-item">
+          {/*          <li className="nav-item">
             <Link
               to="/sign-up"
               className="nav-links-mobile"
@@ -87,9 +80,9 @@ function Navbar() {
             >
               Sign Up
             </Link>
-          </li>
+          </li> */}
         </ul>
-        <Button />
+        {/*  <Button /> */}
       </nav>
     </>
   );

@@ -9,27 +9,30 @@
 
 .navbar-logo {
   color: #fff;
-  justify-self: start;
   margin-left: 20px;
-  cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
 }
 
-.fa-firstdraft {
+.fa-bolt {
   margin-left: 0.5rem;
   font-size: 1.6rem;
 }
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(3, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: end;
   width: 70vw;
   justify-content: end;
   margin-right: 2rem;
+}
+
+.nav-title {
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-item {
@@ -46,9 +49,10 @@
 }
 
 .nav-links:hover {
-  background-color: #1888ff;
   border-radius: 4px;
+  border: #3399ff solid 2px;
   transition: all 0.2s ease-out;
+  background-color: #3399ff;
 }
 
 .fa-bars {
@@ -63,7 +67,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 700px) {
   .fa-caret-down {
     display: none;
   }
@@ -80,7 +84,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #41bbc4;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
