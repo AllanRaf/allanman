@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { Button } from "./Button";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import Dropdown from "./Dropdown";
+import Allan3 from "../images/Allan3.jpg";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -26,16 +25,13 @@ function Navbar() {
   };
 
   const onMouseLeave = () => {
-    if (window.innerWidth < 700) {
-      setDropdown(false);
-    } else {
-      setDropdown(false);
-    }
+    setDropdown(false);
   };
   return (
     <>
       <nav className="navbar">
         <span className="nav-title">
+          <img src={Allan3} alt="allan3" className="navbar-image" />
           <Link to="/" className="navbar-logo">
             My portfolio
           </Link>
@@ -51,38 +47,16 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/products"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
               About
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/services"
-              className="nav-links"
-              onClick={closeMobileMenu}
-              onMouseEnter={onMouseEnter}
-              onMouseLeave={onMouseLeave}
-            >
-              Contact Me <i className="fas fa-caret-down" />
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              Contact Me
             </Link>
-            {dropdown && <Dropdown />}
           </li>
-
-          {/*          <li className="nav-item">
-            <Link
-              to="/sign-up"
-              className="nav-links-mobile"
-              onClick={closeMobileMenu}
-            >
-              Sign Up
-            </Link>
-          </li> */}
         </ul>
-        {/*  <Button /> */}
       </nav>
     </>
   );

@@ -1,6 +1,6 @@
 export const MenuItems = [
-  { title: "Marketing", path: "/marketing", cName: "dropdown-link" },
-  { title: "Consulting", path: "/consulting", cName: "dropdown-link" },
-  { title: "Design", path: "/design", cName: "dropdown-link" },
-  { title: "Development", path: "/development", cName: "dropdown-link" },
+  { title: "Home", path: "/marketing", cName: "dropdown-link" },
+  { title: "Stack", path: "/consulting", cName: "dropdown-link" },
+  { title: "About", path: "/design", cName: "dropdown-link" },
+  { title: "Contact Me", path: "/development", cName: "dropdown-link" },
 ];

@@ -6,15 +6,8 @@
 }
 
 .home,
-.services,
-.products,
-.contact-us,
-.sign-up,
-.marketing,
 .consulting {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
+  margin-top: 1rem;
+  padding-left: 1rem;
   font-size: 3rem;
 }
