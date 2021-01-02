@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/allanman/static/css/main.f1cb357a.chunk.css",
-    "main.js": "/allanman/static/js/main.db7494f1.chunk.js",
-    "main.js.map": "/allanman/static/js/main.db7494f1.chunk.js.map",
+    "main.css": "/allanman/static/css/main.72408b58.chunk.css",
+    "main.js": "/allanman/static/js/main.93205671.chunk.js",
+    "main.js.map": "/allanman/static/js/main.93205671.chunk.js.map",
     "runtime-main.js": "/allanman/static/js/runtime-main.fe55be69.js",
     "runtime-main.js.map": "/allanman/static/js/runtime-main.fe55be69.js.map",
-    "static/js/2.4f1aa494.chunk.js": "/allanman/static/js/2.4f1aa494.chunk.js",
-    "static/js/2.4f1aa494.chunk.js.map": "/allanman/static/js/2.4f1aa494.chunk.js.map",
+    "static/js/2.f08a0e71.chunk.js": "/allanman/static/js/2.f08a0e71.chunk.js",
+    "static/js/2.f08a0e71.chunk.js.map": "/allanman/static/js/2.f08a0e71.chunk.js.map",
     "static/js/3.a967add1.chunk.js": "/allanman/static/js/3.a967add1.chunk.js",
     "static/js/3.a967add1.chunk.js.map": "/allanman/static/js/3.a967add1.chunk.js.map",
     "index.html": "/allanman/index.html",
-    "static/css/main.f1cb357a.chunk.css.map": "/allanman/static/css/main.f1cb357a.chunk.css.map",
-    "static/js/2.4f1aa494.chunk.js.LICENSE.txt": "/allanman/static/js/2.4f1aa494.chunk.js.LICENSE.txt",
+    "static/css/main.72408b58.chunk.css.map": "/allanman/static/css/main.72408b58.chunk.css.map",
+    "static/js/2.f08a0e71.chunk.js.LICENSE.txt": "/allanman/static/js/2.f08a0e71.chunk.js.LICENSE.txt",
     "static/media/Allan3.7c4f0a9c.jpg": "/allanman/static/media/Allan3.7c4f0a9c.jpg",
     "static/media/computer.9decca57.jpg": "/allanman/static/media/computer.9decca57.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fe55be69.js",
-    "static/js/2.4f1aa494.chunk.js",
-    "static/css/main.f1cb357a.chunk.css",
-    "static/js/main.db7494f1.chunk.js"
+    "static/js/2.f08a0e71.chunk.js",
+    "static/css/main.72408b58.chunk.css",
+    "static/js/main.93205671.chunk.js"
   ]
 }
