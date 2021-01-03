@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/allanman/static/css/main.e4d163d7.chunk.css",
-    "main.js": "/allanman/static/js/main.b9c5a7bf.chunk.js",
-    "main.js.map": "/allanman/static/js/main.b9c5a7bf.chunk.js.map",
+    "main.css": "/allanman/static/css/main.b9d779f0.chunk.css",
+    "main.js": "/allanman/static/js/main.f8d0e875.chunk.js",
+    "main.js.map": "/allanman/static/js/main.f8d0e875.chunk.js.map",
     "runtime-main.js": "/allanman/static/js/runtime-main.fe55be69.js",
     "runtime-main.js.map": "/allanman/static/js/runtime-main.fe55be69.js.map",
     "static/js/2.a18ff086.chunk.js": "/allanman/static/js/2.a18ff086.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.a967add1.chunk.js": "/allanman/static/js/3.a967add1.chunk.js",
     "static/js/3.a967add1.chunk.js.map": "/allanman/static/js/3.a967add1.chunk.js.map",
     "index.html": "/allanman/index.html",
-    "static/css/main.e4d163d7.chunk.css.map": "/allanman/static/css/main.e4d163d7.chunk.css.map",
+    "static/css/main.b9d779f0.chunk.css.map": "/allanman/static/css/main.b9d779f0.chunk.css.map",
     "static/js/2.a18ff086.chunk.js.LICENSE.txt": "/allanman/static/js/2.a18ff086.chunk.js.LICENSE.txt",
     "static/media/Allan3.7c4f0a9c.jpg": "/allanman/static/media/Allan3.7c4f0a9c.jpg",
     "static/media/computer.9decca57.jpg": "/allanman/static/media/computer.9decca57.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.fe55be69.js",
     "static/js/2.a18ff086.chunk.js",
-    "static/css/main.e4d163d7.chunk.css",
-    "static/js/main.b9c5a7bf.chunk.js"
+    "static/css/main.b9d779f0.chunk.css",
+    "static/js/main.f8d0e875.chunk.js"
   ]
 }
